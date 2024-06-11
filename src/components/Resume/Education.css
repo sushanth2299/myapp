@@ -1,0 +1,90 @@
+/* General Section Styles */
+.education-experience-section {
+  padding: 60px 0;
+  background-color: #24262c;
+  color: rgb(134, 33, 33);
+  border-radius: 10px;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  color: #b0ade0;
+  margin-bottom: 20px;
+}
+
+.section-line {
+  width: 60px;
+  height: 4px;
+  background-color: #1c1c1d;
+  margin: 0 auto 40px;
+}
+
+.timeline-line {
+  position: absolute;
+  left: 20px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background-color: #0b0b0c;
+}
+
+/* Card Styles */
+.education-list, .experience-list, .certification-list {
+  position: relative;
+  margin-top: 20px;
+}
+
+.education-card, .experience-card, .certification-card {
+  margin-bottom: 30px;
+  padding: 20px;
+  background-color: #b3973f;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(119, 38, 38, 0.2);
+}
+
+.education-card .p-3, .experience-card .p-3, .certification-card .p-3 {
+  position: relative;
+}
+
+.education-card .text-white, .experience-card .text-white, .certification-card .text-white {
+  color: white;
+}
+
+.education-card .text-primary, .experience-card .text-primary, .certification-card .text-primary {
+  color: #1713a1;
+}
+
+.education-card .transition-all, .experience-card .transition-all, .certification-card .transition-all {
+  transition: all 0.3s;
+}
+
+.education-card .duration-300, .experience-card .duration-300, .certification-card .duration-300 {
+  transition-duration: 300ms;
+}
+
+.education-card .hover\:scale-125:hover, .experience-card .hover\:scale-125:hover, .certification-card .hover\:scale-125:hover {
+  transform: scale(1.25);
+}
+
+/* Lottie Animation Container */
+.lottie-animation-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 2rem;
+  }
+
+  .education-card, .experience-card, .certification-card {
+    margin-bottom: 20px;
+  }
+
+  .timeline-line {
+    left: 10px;
+  }
+}

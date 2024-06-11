@@ -1,0 +1,14 @@
+.glow-card {
+    background: #769FCD;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(190, 17, 224, 0.1);
+    transition: all 0.3s ease-in-out;
+    padding: 20px;
+    position: relative;
+  }
+  
+  .glow-card:hover {
+    box-shadow: 0 0 20px rgba(112, 57, 175, 0.6);
+    transform: translateY(-10px);
+  }
+  

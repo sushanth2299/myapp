@@ -1,0 +1,182 @@
+/* Techstack.css */
+
+.techstack {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 60vh;
+    padding: 2.5rem 2rem 2rem 2rem;
+  }
+  
+  .techstackHeader {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+  }
+  
+  .techstackHeader h2 {
+    font-family: var(--primaryFont);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3.5rem;
+    text-align: center;
+  }
+  
+  .techstackContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    width: 100%;
+    overflow: hidden; /* Hide the scrollbar */
+  }
+  
+  .tech--scroll {
+    display: flex;
+    animation: scroll 10s linear infinite; /* Adjust the duration as needed */
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-40%); /* Adjust the percentage to control the speed */
+    }
+  }
+  
+  .tech--box {
+    background: #e28f8f;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.12);
+    border-radius: 10px;
+    width: 160px;
+    height: 160px;
+    margin: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 1rem;
+    transition: 300ms ease-in-out;
+    white-space: normal;
+    position: relative;
+    flex: 0 0 auto; /* Prevent shrinking */
+  }
+  
+  .tech--box:hover {
+    transform: scale(1.15);
+  }
+  
+  .tech--box > svg {
+    height: 50px;
+    width: 50px;
+    pointer-events: none;
+  }
+  
+  .tech-name {
+    font-family: Big Shoulders Text;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    text-align: justify;
+    margin-top: 1rem;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    position: absolute;
+    bottom: 0px; /* Adjust this value based on your layout */
+  }
+  
+  .tech--box:hover .tech-name {
+    opacity: 1;
+  }
+  
+  .marquee {
+    padding: 3rem 0;
+  }
+  
+  @media (min-width: 992px) and (max-width: 1380px) {
+    .techstack {
+      padding: 2rem 1rem 1rem 1rem;
+    }
+    .techstackContainer {
+      padding: 1.5rem;
+      margin-top: 1.5rem;
+    }
+  }
+  
+  @media screen and (max-width: 992px) {
+    .techstack {
+      padding: 1rem;
+      min-height: 100%;
+    }
+    .techstackContainer {
+      padding: 1rem;
+      margin: 1rem 0;
+    }
+    .techstackHeader h2 {
+      font-size: 3.2rem;
+    }
+    .tech--box {
+      width: 150px;
+      height: 150px;
+      margin: 1.2rem;
+      padding: 2rem 1rem;
+    }
+  
+    .tech--box > svg {
+      height: 45px;
+      width: 45px;
+    }
+  
+    .tech-name {
+      font-size: 20px;
+      margin-top: 1rem;
+    }
+  }
+  
+  @media screen and (max-width: 800px) {
+    .techstack {
+      padding: 0.5rem;
+    }
+    .techstackContainer {
+      padding: 0.5rem;
+    }
+    .techstackHeader h2 {
+      font-size: 3rem;
+    }
+  
+    .tech--scroll {
+      width: 100%;
+      margin: 0;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .tech--box {
+      width: 135px;
+      height: 135px;
+      margin: 1.2rem;
+      padding: 2rem 1rem;
+    }
+  
+    .tech--box > svg {
+      height: 40px;
+      width: 40px;
+    }
+  
+    .techstackHeader h2 {
+      font-size: 2.5rem;
+    }
+  
+    .tech-name {
+      font-size: 18px;
+      margin-top: 1rem;
+    }
+  }
+  
+  @media screen and (max-width: 400px) {
+    .techstackHeader h2 {
+      font-size: 2rem;
+    }
+  }
+  

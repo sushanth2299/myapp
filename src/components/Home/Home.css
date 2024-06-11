@@ -1,0 +1,81 @@
+/* Home.css */
+
+.home-section {
+  padding: 0 0 60px 0; /* Removed the top padding */
+  background-color: #4293e4;
+}
+
+  
+  .home-content {
+    padding: 40px 0;
+  }
+  
+  .heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .main-name {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #6c63ff;
+    margin-bottom: 20px;
+  }
+  
+  .description {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: #555;
+  }
+  
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .home-about-section {
+    padding: 60px 0;
+    background-color: #fff;
+  }
+  
+  .home-about-social {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .home-about-social h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .home-about-social p {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  .purple {
+    color: #6c63ff;
+  }
+  
+  .home-about-social-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  
+  .social-icons {
+    font-size: 2rem;
+  }
+  
+  .icon-colour {
+    color: #6c63ff;
+  }
+  
+  .icon-colour:hover {
+    color: #333;
+  }
+  

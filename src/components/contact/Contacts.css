@@ -1,0 +1,154 @@
+.contacts {
+    padding: 50px;
+    background-color: #b4cff8;
+}
+
+.contacts--container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background: #ffffff;
+    border-radius: 15px;
+    padding: 50px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.contacts--container h1 {
+    margin-bottom: 40px;
+    font-size: 3rem;
+    color: #333;
+}
+
+.contacts-body {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.contacts-form {
+    flex: 1;
+    padding: 30px;
+    background: #f7f9fc;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    position: relative;
+    z-index: 1;
+}
+
+.contacts-details {
+    flex: 1;
+    padding: 30px;
+    background: #f7f9fc;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    margin-left: 20px;
+}
+
+.contacts-svg {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 0;
+    opacity: 0.2;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.input-container label {
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #555;
+}
+
+.form-input,
+.form-message {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-size: 1rem;
+    color: #333;
+}
+
+.form-message {
+    height: 150px;
+    resize: none;
+}
+
+.submit-btn {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.submit-btn button {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s ease;
+    font-size: 1rem;
+}
+
+.submit-btn button:hover {
+    background: #0056b3;
+}
+
+.submit-icon {
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.send-icon {
+    font-size: 20px;
+}
+
+.success-icon {
+    font-size: 20px;
+    color: #4caf50;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.personal-details {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.details-icon {
+    margin-right: 10px;
+    font-size: 20px;
+    color: #007bff;
+}
+
+.socialmedia-icons {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.socialmedia-icons a {
+    margin: 5px;
+    font-size: 24px;
+    color: #555;
+    transition: color 0.3s ease;
+}
+
+.socialmedia-icons a:hover {
+    color: #007bff;
+}
