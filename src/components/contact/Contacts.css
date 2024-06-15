@@ -20,32 +20,40 @@
     margin-bottom: 40px;
     font-size: 3rem;
     color: #333;
+    text-align: center;
 }
 
 .contacts-body {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     width: 100%;
     padding: 20px 0;
 }
 
-.contacts-form {
-    flex: 1;
-    padding: 30px;
-    background: #f7f9fc;
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
-    border-radius: 15px;
-    position: relative;
-    z-index: 1;
+@media (min-width: 768px) {
+    .contacts-body {
+        flex-direction: row;
+        justify-content: space-between;
+    }
 }
 
-.contacts-details {
-    flex: 1;
+.contacts-form, .contacts-details {
     padding: 30px;
     background: #f7f9fc;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
     border-radius: 15px;
-    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+    .contacts-form, .contacts-details {
+        flex: 1;
+        margin-bottom: 0;
+    }
+
+    .contacts-details {
+        margin-left: 20px;
+    }
 }
 
 .input-container {
