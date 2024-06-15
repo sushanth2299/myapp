@@ -48,14 +48,6 @@
     margin-left: 20px;
 }
 
-.contacts-svg {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    z-index: 0;
-    opacity: 0.2;
-}
-
 .input-container {
     display: flex;
     flex-direction: column;
@@ -151,4 +143,34 @@
 
 .socialmedia-icons a:hover {
     color: #007bff;
+}
+
+.snackbar {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #6c63ff;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 250px;
+}
+
+.snackbar-content {
+    display: flex;
+    align-items: center;
+}
+
+.snackbar-close {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-left: 1rem;
+    font-size: 1.5rem;
+    line-height: 1;
 }
