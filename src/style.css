@@ -15,7 +15,7 @@ html, body {
 }
 
 body {
-  background-color: #f7f7f7; /* Light grey background */
+  background-color: #dfebe4; /* Light grey background */
   margin: 0;
   padding: 0;
 }
@@ -56,7 +56,7 @@ body {
 html {
   --section-background-color: linear-gradient(
     to bottom left,
-    rgba(96, 173, 141, 0.582),
+    rgba(255, 255, 255, 0),
     rgba(190, 187, 202, 0.904)
   );
 
@@ -152,7 +152,7 @@ button:focus {
 
 .navbar-toggler span {
   display: block !important;
-  background-color: #0c0b0c !important;
+  background-color: #060606 !important;
   height: 4px !important;
   width: 27px !important;
   margin-top: 5px !important;
@@ -199,14 +199,14 @@ button:focus {
   .navbar {
     padding: 1rem 2rem !important;
     font-size: 1.4rem !important;
-    background-color: #414fac !important;
+    background-color: #ebecf2 !important;
   }
   .navbar-nav .nav-item a::after {
     display: none !important;
   }
 }
 .navbar-brand {
-  color: rgb(240, 141, 141) !important;
+  color: rgb(169, 149, 149) !important;
 }
 
 .logo {
@@ -215,7 +215,7 @@ button:focus {
 }
 
 .navbar-nav .nav-link {
-  color: rgb(199, 41, 41) !important;
+  color: rgb(6, 0, 2) !important;
   padding-right: 1rem !important;
   padding-left: 1rem !important;
 }
@@ -249,7 +249,7 @@ button:focus {
   height: 5px;
   width: 0;
   border-radius: 16px;
-  background: #0baaf3c0;
+  background: #0d0c0cc0;
   bottom: 1px;
   left: 0;
   z-index: -1;
@@ -280,7 +280,7 @@ button:focus {
 
 .home-content {
   padding: 9rem 0 2rem !important;
-  color: rgb(253, 253, 253);
+  color: rgb(4, 0, 0);
   text-align: left;
 }
 
@@ -295,7 +295,7 @@ button:focus {
 }
 
 .main-name {
-  color: #e1d2e7;
+  color: #013459;
 }
 
 .Typewriter__wrapper {
@@ -478,7 +478,7 @@ button:focus {
 
 
 .project-heading {
-  color: rgb(209, 43, 43) !important;
+  color: rgb(11, 11, 11) !important;
   font-size: 2.3em !important;
   font-weight: 500 !important;
   padding-top: 10px !important;
@@ -493,7 +493,7 @@ button:focus {
   padding-top: 150px !important;
   padding-bottom: 30px !important;
   /* background-image: var(--section-background-color) !important; */
-  color: white !important;
+  color: rgb(23, 21, 21) !important;
 }
 
 .tech-icons {
@@ -544,7 +544,3 @@ button:focus {
     padding-top: 0 !important;
   }
 }
-/* --------- */
-/* Resume */
-/* --------- */
-

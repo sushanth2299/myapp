@@ -1,23 +1,23 @@
 /* General Section Styles */
 .education-experience-section {
   padding: 60px 0;
-  background-color: #24262c;
-  color: rgb(134, 33, 33);
+  background-color: #ffffff;
+  /* color: rgb(134, 33, 33); */
   border-radius: 10px;
 }
 
 .section-title {
   font-size: 2.5rem;
-  color: #b0ade0;
+  color: #101011;
   margin-bottom: 20px;
 }
 
-.section-line {
+/* .section-line {
   width: 60px;
   height: 4px;
   background-color: #1c1c1d;
   margin: 0 auto 40px;
-}
+} */
 
 .timeline-line {
   position: absolute;
@@ -34,6 +34,8 @@
   margin-top: 20px;
 }
 
+
+
 .education-card, .experience-card, .certification-card {
   margin-bottom: 30px;
   padding: 20px;
@@ -47,11 +49,11 @@
 }
 
 .education-card .text-white, .experience-card .text-white, .certification-card .text-white {
-  color: white;
+  color: rgb(7, 7, 7);
 }
 
 .education-card .text-primary, .experience-card .text-primary, .certification-card .text-primary {
-  color: #1713a1;
+  color: #0a0a0b;
 }
 
 .education-card .transition-all, .experience-card .transition-all, .certification-card .transition-all {

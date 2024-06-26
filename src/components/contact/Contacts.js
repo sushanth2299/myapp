@@ -58,73 +58,7 @@ function Contacts() {
             <div className="contacts--container">
                 <h1>Contact Me</h1>
                 <div className="contacts-body">
-                    <div className="contacts-form">
-                        <form onSubmit={handleContactForm}>
-                            <div className="input-container">
-                                <label htmlFor="name">Name</label>
-                                <input
-                                    id="name"
-                                    placeholder="Name"
-                                    value={name}
-                                    onChange={(e) => setName(e.target.value)}
-                                    type="text"
-                                    className="form-input"
-                                />
-                            </div>
-                            <div className="input-container">
-                                <label htmlFor="email">Email</label>
-                                <input
-                                    id="email"
-                                    placeholder="Email"
-                                    value={email}
-                                    onChange={(e) => setEmail(e.target.value)}
-                                    type="email"
-                                    className="form-input"
-                                />
-                            </div>
-                            <div className="input-container">
-                                <label htmlFor="message">Message</label>
-                                <textarea
-                                    id="message"
-                                    placeholder="Message"
-                                    value={message}
-                                    onChange={(e) => setMessage(e.target.value)}
-                                    className="form-message"
-                                />
-                            </div>
-                            <div className="submit-btn">
-                                <button type="submit">
-                                    <p>{!success ? 'Send' : 'Sent'}</p>
-                                    <div className="submit-icon">
-                                        <AiOutlineSend
-                                            className="send-icon"
-                                            style={{
-                                                animation: !success ? 'initial' : 'fly 0.8s linear both',
-                                                position: success ? 'absolute' : 'initial',
-                                            }}
-                                        />
-                                        <AiOutlineCheckCircle
-                                            className="success-icon"
-                                            style={{
-                                                display: !success ? 'none' : 'inline-flex',
-                                                opacity: !success ? '0' : '1',
-                                            }}
-                                        />
-                                    </div>
-                                </button>
-                            </div>
-                        </form>
-                        {open && (
-                            <div className="snackbar">
-                                <div className="snackbar-content">
-                                    <span>{errMsg}</span>
-                                    <button onClick={handleClose} className="snackbar-close">
-                                        &times;
-                                    </button>
-                                </div>
-                            </div>
-                        )}
-                    </div>
+                    
                     <div className="contacts-details">
                         <a href={`mailto:${contactsData.email}`} className="personal-details">
                             <div className="details-icon">
